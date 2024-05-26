@@ -1,17 +1,17 @@
 import fs from 'fs';
 
-let lines = fs.readFileSync("manual-data/hero-ability.txt")
-    .toString().replaceAll("\r", "").split("\n")
+const lines = fs.readFileSync("manual-data/hero-ability.txt")
+    .toString().replaceAll("\r", "").split("\n");
 
-let heroes = lines.map((line) => {
-    let strs = line.split("\t")
+const heroes = lines.map((line) => {
+    const strs = line.split("\t");
     return {
         name: `HERO_${strs[1]}`,
         code: strs[0],
         unitAbilities: strs[2].split(","),
         heroAbilities: strs[3].split(",")
-    }
-})
+    };
+});
 
 let code = `
 export interface Hero {
@@ -26,10 +26,10 @@ heroes.forEach((hero) => {
         code: hero.code,
         unitAbilities: hero.unitAbilities,
         heroAbilities: hero.heroAbilities,
-    }, null, 2)};\n`
+    }, null, 2)};\n`;
 
-    code2 += `  ${hero.name},\n`
-})
+    code2 += `  ${hero.name},\n`;
+});
 
-fs.writeFileSync("./output/war3-heroes.ts", code + code2 + "];\n")
-console.log(`Extracted ${lines.length} heroes.`)
+fs.writeFileSync("./output/war3-heroes.ts", code + code2 + "];\n");
+console.log(`Extracted ${lines.length} heroes.`);

@@ -7,12 +7,16 @@
     "model": "node extract-models.js",
     "extension": "node list-extensions.js",
     "hero": "node extract-heroes.js",
-    "unit": "node extract-units.js"
+    "unit": "node extract-units.js",
+    "ability": "node extract-abilities.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "glob": "^8.0.3"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^9.3.0"
+  }
 }

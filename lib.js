@@ -10,18 +10,18 @@ export function print(arr, size) {
 }
 
 export function extract(pattern) {
-    let filenames = globSync("extracted-mpq/" + pattern)
+    let filenames = globSync("extracted-mpq/" + pattern);
     filenames = filenames.map((s) => s.replace("extracted-mpq/", ""));
 
-    let files = [];
+    const files = [];
     filenames.forEach((filename) => {
-        let name = last(filename.split("/")).split(".")[0];
-        let extension = last(filename.split("."));
+        const name = last(filename.split("/")).split(".")[0];
+        const extension = last(filename.split("."));
         files.push({
             path: filename,
             name, extension: (extension !== filename ? extension : null)
-        })
-    })
+        });
+    });
 
-    return files
+    return files;
 }
