@@ -8,7 +8,8 @@
     "extension": "node list-extensions.js",
     "hero": "node extract-heroes.js",
     "unit": "node extract-units.js",
-    "ability": "node extract-abilities.js"
+    "ability": "node extract-abilities.js",
+    "lightning": "node extract-lightnings.js"
   },
   "author": "",
   "license": "ISC",
