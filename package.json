@@ -9,7 +9,8 @@
     "hero": "node extract-heroes.js",
     "unit": "node extract-units.js",
     "ability": "node extract-abilities.js",
-    "lightning": "node extract-lightnings.js"
+    "lightning": "node extract-lightnings.js",
+    "generate-ts": "node generate-ts.js"
   },
   "author": "",
   "license": "ISC",
