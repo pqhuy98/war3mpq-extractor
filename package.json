@@ -10,11 +10,13 @@
     "unit": "node extract-units.js",
     "ability": "node extract-abilities.js",
     "lightning": "node extract-lightnings.js",
+    "unit-sound": "node extract-unit-sound.js",
     "generate-ts": "node generate-ts.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "csv-parser": "^3.0.0",
     "glob": "^8.0.3"
   },
   "type": "module",
