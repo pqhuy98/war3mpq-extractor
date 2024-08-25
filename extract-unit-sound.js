@@ -2,10 +2,10 @@ import fs, { writeFileSync } from 'fs';
 
 import csv from 'csv-parser';
 
-function readSounds() {
+function readSounds(path) {
     return new Promise((resolve) => {
         const sounds = [];
-        fs.createReadStream('manual-data/UnitAckSounds.csv')
+        fs.createReadStream(path)
             .pipe(csv())
             .on('data', (data) => {
                 data["SoundName"] = data[Object.keys(data)[0]];
@@ -34,12 +34,41 @@ function readUnitUI() {
     });
 }
 
-const allSounds = await readSounds();
+function cleanDuplicatedSounds(sounds) {
+    // Remove duplicated rows with same SoundName, keep the one with highest version
+    const soundMap = new Map();
+    for (const sound of sounds) {
+        const existing = soundMap.get(sound.SoundName);
+        // If this is the first time encountering the SoundName or this version is higher, update the map
+        if (!existing || sound.version > existing.version) {
+            soundMap.set(sound.SoundName, sound);
+        }
+    }
+    // Convert the map back to an array of the filtered sounds
+    return Array.from(soundMap.values());
+}
+
+const allSounds = cleanDuplicatedSounds([
+    ...await readSounds('manual-data/UnitAckSounds.csv'),
+    ...await readSounds('manual-data/UnitAckSounds-2.csv'),
+]);
+console.log(allSounds.find(s => s.SoundName === "SnowOwlWhat"));
+
 const units = await readUnitUI();
 
 const suffices = [];
 
 function match(unitSound, soundName) {
+    if (unitSound === "owl" && soundName === "SnowOwlWhat") {
+        let x;
+    }
+
+    if ([
+        ["owl", "SnowOwlWhat"]
+    ]
+        .map(([s1, s2]) => s1.toLowerCase() + ":" + s2.toLowerCase())
+        .includes(unitSound.toLowerCase() + ":" + soundName.toLowerCase())) return true;
+
     return [
         'What',
         'Pissed',
@@ -51,6 +80,9 @@ function match(unitSound, soundName) {
 }
 
 const result = units.map(u => {
+    if (u.unitUIID === "nowl") {
+        let x;
+    }
     const sounds = u.unitSound !== "" ? allSounds.filter(s => match(u.unitSound, s.SoundName)) : [];
     if (sounds.length === 0) {
         console.warn("Cannot find sound for", u.name, u.unitSound, u.file);
