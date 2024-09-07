@@ -25,3 +25,14 @@ export function extract(pattern) {
 
     return files;
 }
+
+export function FourCC(str) {
+    if (str.length !== 4) {
+        throw new Error("FourCC string must be exactly 4 characters long");
+    }
+
+    return (str.charCodeAt(0) << 24) |
+        (str.charCodeAt(1) << 16) |
+        (str.charCodeAt(2) << 8) |
+        (str.charCodeAt(3));
+}

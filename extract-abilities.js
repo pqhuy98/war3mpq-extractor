@@ -1,4 +1,5 @@
 import fs from 'fs';
+import { FourCC } from "./lib.js";
 
 const allLines = fs.readFileSync("manual-data/ability-id.txt")
     .toString().replaceAll("\r", "")
@@ -14,7 +15,6 @@ const nameSet = new Map();
 const abilities = lines.map((line, i) => {
     const strs = line.split("\t");
     const data = Object.fromEntries(headers.map((h, i) => [h, strs[i]]));
-    console.log(data);
 
     let name = `ABILITY_${formatName(data.comments)}`;
     if (nameSet.has(name)) {
@@ -28,6 +28,7 @@ const abilities = lines.map((line, i) => {
     return {
         name,
         code: data.alias,
+        id: FourCC(data.alias),
         sort: data.sort,
         race: data.race,
         levels: parseInt(data.levels, 10),
@@ -47,6 +48,7 @@ function formatName(str) {
 let code = `
 export interface ABILITY_TYPE {
     code: string
+    id: number
     sort: "hero" | "unit" | "item"
     race: "human" | "orc" | "undead" | "nightelf" | "naga" | "creeps" | "other"
     levels: number

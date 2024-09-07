@@ -1,4 +1,5 @@
 import fs from 'fs';
+import { FourCC } from "./lib.js";
 
 const lines = fs.readFileSync("manual-data/unit-id.txt")
     .toString().replaceAll("\r", "").split("\n").filter(s => s.length);
@@ -24,6 +25,7 @@ const units = lines.map((line, i) => {
     return {
         name,
         code: strs[0],
+        id: FourCC(strs[0]),
     };
 });
 
@@ -39,12 +41,14 @@ function formatName(str) {
 let code = `
 export interface UNIT_TYPE {
     code: string;
+    id: number;
 }
 `;
 let code2 = "export const ALL_UNIT_TYPES = [\n";
 units.forEach((unit) => {
     code += `export const ${unit.name}: UNIT_TYPE = ${JSON.stringify({
         code: unit.code,
+        id: unit.id,
     }, null, 2)};\n`;
 
     code2 += `  ${unit.name},\n`;

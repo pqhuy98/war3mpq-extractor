@@ -8,6 +8,7 @@
     "extension": "node list-extensions.js",
     "hero": "node extract-heroes.js",
     "unit": "node extract-units.js",
+    "unit-category": "node extract-unit-category.js",
     "ability": "node extract-abilities.js",
     "lightning": "node extract-lightnings.js",
     "unit-sound": "node extract-unit-sound.js",
