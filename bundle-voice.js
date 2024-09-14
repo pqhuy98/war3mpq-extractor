@@ -6,7 +6,7 @@ ffmpeg.setFfmpegPath('bin\\ffmpeg-7.0.2-essentials_build\\bin\\ffmpeg.exe');
 ffmpeg.setFfprobePath('bin\\ffmpeg-7.0.2-essentials_build\\bin\\ffprobe.exe');
 
 // Directory where your input files are located
-const inputDir = 'manual-data\\voice-packs\\Grunt';
+const inputDir = 'manual-data\\voice-packs\\MortarTeam';
 const silenceFilePath = 'manual-data\\voice-packs\\silence.wav'; // Path to the pre-generated silent audio file
 const delaySeconds = 1; // Delay in seconds between each file
 
