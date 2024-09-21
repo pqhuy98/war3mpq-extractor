@@ -13,7 +13,8 @@
     "lightning": "node extract-lightnings.js",
     "unit-sound": "node extract-unit-sound.js",
     "generate-ts": "node generate-ts.js",
-    "bundle-voice": "node bundle-voice.js"
+    "bundle-voice": "node bundle-voice.js",
+    "item": "node generate-items.js"
   },
   "author": "",
   "license": "ISC",
