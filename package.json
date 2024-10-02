@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "model": "node extract-models.js",
     "extension": "node list-extensions.js",
@@ -13,18 +14,22 @@
     "lightning": "node extract-lightnings.js",
     "unit-sound": "node extract-unit-sound.js",
     "generate-ts": "node generate-ts.js",
-    "bundle-voice": "node bundle-voice.js",
-    "item": "node generate-items.js"
+    "bundle-voice": "node src/bundle-voice.js",
+    "item": "node generate-items.js",
+    "generate-dialogues": "tsx src/generate-dialogues.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
     "fluent-ffmpeg": "^2.1.3",
-    "glob": "^8.0.3"
+    "glob": "^8.0.3",
+    "ts-node": "^10.9.2"
   },
-  "type": "module",
   "devDependencies": {
-    "eslint": "^9.3.0"
+    "elevenlabs": "^0.16.1",
+    "eslint": "^9.3.0",
+    "tsx": "^4.19.1"
   }
 }

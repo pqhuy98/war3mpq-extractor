@@ -52,7 +52,7 @@ const allSounds = cleanDuplicatedSounds([
     ...await readSounds('manual-data/UnitAckSounds.csv'),
     ...await readSounds('manual-data/UnitAckSounds-2.csv'),
 ]);
-console.log(allSounds.find(s => s.SoundName === "SnowOwlWhat"));
+console.log("Found " + allSounds.length + " sounds");
 
 const units = await readUnitUI();
 
