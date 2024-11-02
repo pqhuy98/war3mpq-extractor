@@ -5,8 +5,11 @@ import path from 'path';
 ffmpeg.setFfmpegPath('bin\\ffmpeg-7.0.2-essentials_build\\bin\\ffmpeg.exe');
 ffmpeg.setFfprobePath('bin\\ffmpeg-7.0.2-essentials_build\\bin\\ffprobe.exe');
 
+// const mode = "find-voice";
+const mode = "bundle-voice";
+
 // Directory where your input files are located
-const speakerName = "Paladin";
+const speakerName = "Bandit";
 
 const inputDir = 'manual-data\\voice-packs\\'+speakerName;
 const outputFile = 'output\\voice-packs\\'+speakerName+".mp3"; // Change to desired output path and format
@@ -15,8 +18,14 @@ const silenceFilePath = 'manual-data\\voice-packs\\silence.wav'; // Path to the 
 const delaySeconds = 1; // Delay in seconds between each file
 
 // Uncomment these 2 lines to copy matching files from extracted-mpq to inputDir
-// await copyMatchingFiles();
-// process.exit(0);
+if (mode === "find-voice") {
+    console.log("Finding voice files...");
+    await copyMatchingFiles();
+}
+if (mode === "bundle-voice") {
+    console.log("Bundling voice files...");
+    generate();
+}
 
 // Async function to list all files with pattern *{speakerName}*.mp3 in folder extracted-mpq
 // and copy them to inputDir
@@ -56,7 +65,7 @@ async function copyMatchingFiles() {
 }
 
 // Function to combine audio files
-const combineAudioFiles = (fileList, silenceFile, outputPath) => {
+function combineAudioFiles(fileList, silenceFile, outputPath) {
     let command = ffmpeg();
 
     fileList.forEach((file, index) => {
@@ -77,14 +86,14 @@ const combineAudioFiles = (fileList, silenceFile, outputPath) => {
 };
 
 // Get all mp3 and wav files in the directory
-const getAudioFiles = (dir) => {
+function getAudioFiles(dir) {
     return fs.readdirSync(dir)
         .filter(file => file.endsWith('.mp3') || file.endsWith('.wav'))
         .map(file => path.join(dir, file));
 };
 
 // Main function
-const main = () => {
+function generate() {
     const audioFiles = getAudioFiles(inputDir);
     if (audioFiles.length === 0) {
         console.log('No audio files found in the directory.');
@@ -93,5 +102,3 @@ const main = () => {
 
     combineAudioFiles(audioFiles, silenceFilePath, outputFile);
 };
-
-main();

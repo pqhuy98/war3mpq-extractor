@@ -11,17 +11,26 @@ const client = new ElevenLabsClient({
 
 const VoiceDescriptions = {
   "Footman": "Voice of a middle age American footman.",
+  "Knight": "Middle age warrior man. Strong and aggressive voice.",
+  "Rifleman": "Old dwarf rifleman.",
   "Grunt": "Voice of a Orc warrior, highly aggressive.",
   "MortarTeam": "Voice of an old dwarf man.",
   "Peasant": "Voice of a peasant, weak mind and coward.",
+  "VillagerMan": "Voice of a male villager, weak mind and coward.",
+  "VillagerMan2": "Voice of a male villager, weak mind and coward.",
+  "VillagerWoman": "Voice of a male villager, soft and feminine.",
+  "VillagerKid": "Voice of 4 years old child.",
+  "Paladin": "Voice of a Paladin.",
+  "Archmage": "Voice of an old Archmage.",
+  "Bandit": "Voice of young male Bandit, rogue in nature.",
 }
 type VoiceName = (keyof typeof VoiceDescriptions);
 const allVoiceNames = Object.keys(VoiceDescriptions) as VoiceName[];
 
-const questName = "starting"
+const questName = "bandit-banish"
 
-const generated = true;
-// const generated = false;
+const actualRun = true;
+// const actualRun = false;
 
 /**
  * Code
@@ -44,7 +53,7 @@ dialogues.forEach(raw => {
   const lines = raw.split("\n")
   assert.ok(lines.length === 4, "Must have 4 lines, but found " + lines.length + ". Raw: " + raw)
   const {reqId, voiceName, speaker, prevText, text} = parse(raw)
-  assert.ok(allVoiceNames.includes(voiceName))
+  assert.ok(allVoiceNames.includes(voiceName), "unexpect voice " + voiceName)
   assert.ok(speaker.length > 0)
   assert.ok(prevText.length > 0)
   assert.ok(text.length > 0)
@@ -74,9 +83,9 @@ for(const dialogue of dialogues) {
 
   console.log(voiceName, fileName)
   if (!reqId) {
-    if (generated) {
+    if (actualRun) {
       reqId = await generate(voiceName, prevText, `"${text}"`, outputFilePath, prevReqId);
-      console.log({reqId})
+      console.log({reqId, prevReqId})
     } else {
       console.log("mock generate", {voiceName, prevReqId, text})
       reqId = ""
@@ -142,7 +151,7 @@ async function generateDialogue(voice: Voice, previousText: string, text: string
     previous_text: previousText.length > 0 ? previousText : undefined,
     previous_request_ids: previousReqId ? [previousReqId] : undefined,
     voice_settings: {
-      stability: 0.35,
+      stability: 0.45,
       similarity_boost: 1,
       use_speaker_boost: true,
     },
@@ -170,7 +179,6 @@ async function generate(voiceName: VoiceName, previousText: string, text: string
     }
 
     const requestId = await generateDialogue(voice, previousText, text, outputFileName, previousReqId)
-    console.log(requestId)
     return requestId
   } catch (e: any) {
     console.log(e)
