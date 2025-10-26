@@ -4,6 +4,8 @@ import fs from "fs"
 import { Voice } from "elevenlabs/api";
 import assert from "assert"
 
+const questName = "test"
+
 const client = new ElevenLabsClient({
   apiKey: process.env.ELEVENLABS_API_KEY
 });
@@ -26,8 +28,6 @@ const VoiceDescriptions = {
 }
 type VoiceName = (keyof typeof VoiceDescriptions);
 const allVoiceNames = Object.keys(VoiceDescriptions) as VoiceName[];
-
-const questName = "bandit-banish"
 
 const actualRun = true;
 // const actualRun = false;
@@ -151,7 +151,7 @@ async function generateDialogue(voice: Voice, previousText: string, text: string
     previous_text: previousText.length > 0 ? previousText : undefined,
     previous_request_ids: previousReqId ? [previousReqId] : undefined,
     voice_settings: {
-      stability: 0.45,
+      stability: 0.1,
       similarity_boost: 1,
       use_speaker_boost: true,
     },
