@@ -9,7 +9,7 @@ ffmpeg.setFfprobePath('bin\\ffmpeg-7.0.2-essentials_build\\bin\\ffprobe.exe');
 const mode = "bundle-voice";
 
 // Directory where your input files are located
-const speakerName = "Bandit";
+const speakerName = "LichKing";
 
 const inputDir = 'manual-data\\voice-packs\\'+speakerName;
 const outputFile = 'output\\voice-packs\\'+speakerName+".mp3"; // Change to desired output path and format
@@ -71,7 +71,7 @@ function combineAudioFiles(fileList, silenceFile, outputPath) {
     fileList.forEach((file, index) => {
         command = command.input(file);
         if (index < fileList.length - 1) {
-            command = command.input(silenceFile);
+            // command = command.input(silenceFile);
         }
     });
 
@@ -88,7 +88,7 @@ function combineAudioFiles(fileList, silenceFile, outputPath) {
 // Get all mp3 and wav files in the directory
 function getAudioFiles(dir) {
     return fs.readdirSync(dir)
-        .filter(file => file.endsWith('.mp3') || file.endsWith('.wav'))
+        .filter(file => file.endsWith('.mp3') || file.endsWith('.wav') || file.endsWith('.ogg'))
         .map(file => path.join(dir, file));
 };
 
