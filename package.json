@@ -16,7 +16,8 @@
     "generate-ts": "node generate-ts.js",
     "bundle-voice": "node src/bundle-voice.js",
     "item": "node generate-items.js",
-    "generate-dialogues": "tsx src/generate-dialogues.ts"
+    "generate-dialogues": "tsx src/generate-dialogues.ts",
+    "compare-v4": "tsx src/compare-v4.ts"
   },
   "author": "",
   "license": "ISC",
