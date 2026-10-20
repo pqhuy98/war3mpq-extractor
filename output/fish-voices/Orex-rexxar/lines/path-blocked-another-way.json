@@ -1,0 +1,10 @@
+{
+  "unitId": "Orex",
+  "unitName": "rexxar",
+  "lineId": "path-blocked-another-way",
+  "text": "[calm, firm, speaking to his companions]\nThe dead giant stands in our way. [short pause] We'll have to go around.",
+  "model": "drama-3",
+  "voiceId": "177a02180ee140658ca52c50ee26e885",
+  "wav": "output\\fish-voices\\Orex-rexxar\\lines\\path-blocked-another-way.wav",
+  "generatedAt": "2026-10-18T19:22:10.234Z"
+}

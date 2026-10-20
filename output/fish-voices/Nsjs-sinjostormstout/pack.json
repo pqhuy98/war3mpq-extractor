@@ -1,0 +1,107 @@
+[
+  {
+    "fileName": "What.wav",
+    "soundType": "What",
+    "clipFileNames": [
+      "PandarenBrewmasterWhat1.wav",
+      "PandarenBrewmasterWhat2.wav",
+      "PandarenBrewmasterWhat3.wav",
+      "PandarenBrewmasterWhat4.wav"
+    ],
+    "text": "Is trouble brewing? Name your poison. You seem a little parched. Another round?"
+  },
+  {
+    "fileName": "Pissed.wav",
+    "soundType": "Pissed",
+    "clipFileNames": [
+      "PandarenBrewmasterPissed1.wav",
+      "PandarenBrewmasterPissed2.wav",
+      "PandarenBrewmasterPissed3.wav",
+      "PandarenBrewmasterPissed4.wav",
+      "PandarenBrewmasterPissed5.wav",
+      "PandarenBrewmasterPissed6.wav",
+      "PandarenBrewmasterPissed7.wav",
+      "PandarenBrewmasterPissed8.wav"
+    ],
+    "text": "Ale is my bare necessity. Last call before closing! Come drown your sorrows. This'll put hair all over you. I'd kiss you, but I've got puke breath. My dad, he was a bipolar. I can't breed in captivity. Sorry."
+  },
+  {
+    "fileName": "YesAttack.wav",
+    "soundType": "YesAttack",
+    "clipFileNames": [
+      "PandarenBrewmasterYesAttack1.wav",
+      "PandarenBrewmasterYesAttack2.wav",
+      "PandarenBrewmasterYesAttack3.wav",
+      "PandarenBrewmasterYesAttack4.wav"
+    ],
+    "text": "This will be grizzly! Now, you're endangered! I bring pandemonium! Prepare to get trashed!"
+  },
+  {
+    "fileName": "Yes.wav",
+    "soundType": "Yes",
+    "clipFileNames": [
+      "PandarenBrewmasterYes1.wav",
+      "PandarenBrewmasterYes2.wav",
+      "PandarenBrewmasterYes3.wav",
+      "PandarenBrewmasterYes4.wav"
+    ],
+    "text": "Oh, gladly. I'll give it a shot. Have one on the house. I'll put it on your tab."
+  },
+  {
+    "fileName": "Ready.wav",
+    "soundType": "Ready",
+    "clipFileNames": [
+      "PandarenBrewmasterReady1.wav"
+    ],
+    "text": "\"Fresh, cool ale here.\""
+  },
+  {
+    "fileName": "Warcry.wav",
+    "soundType": "Warcry",
+    "clipFileNames": [
+      "PandarenBrewmasterWarcry1.wav"
+    ],
+    "text": "For Pandaria!"
+  },
+  {
+    "fileName": "Campaign-1.wav",
+    "soundType": "Campaign",
+    "clipFileNames": [
+      "DR02Chen01.wav"
+    ],
+    "text": "Ah, greetings, my friend. I am Chen Stormstout, humble brewmaster of Pandaria. I have traveled the wide world searching for rare, exotic ingredients to use in my special brews. After all, good ale can solve all the problems of this world. Don't you agree?"
+  },
+  {
+    "fileName": "Campaign-2.wav",
+    "soundType": "Campaign",
+    "clipFileNames": [
+      "DR02Chen01A.wav",
+      "DR02Chen02.wav"
+    ],
+    "text": "Say, if you're free, I could use your help in locating some special ingredients for my latest brew. If you find the items on this list and bring them back to me, I'll let you sample my masterpiece. Ah, I see you've returned empty-handed. Don't be afraid, my friend. Strong ale should be nothing to fear for one of your size."
+  },
+  {
+    "fileName": "Campaign-3.wav",
+    "soundType": "Campaign",
+    "clipFileNames": [
+      "DR02Chen03.wav"
+    ],
+    "text": "Perfect! Perfect! These are just what I needed! Here, try a sample of my latest creation."
+  },
+  {
+    "fileName": "Campaign-4.wav",
+    "soundType": "Campaign",
+    "clipFileNames": [
+      "DR02Chen05.wav"
+    ],
+    "text": "Ah, perhaps it needs some refinement. After all, we must learn to crawl before we can run. Don't you agree? Well, now that my brew is complete, I can experience more of this strange, rugged land. Would you mind if I tagged along with you, warrior?"
+  },
+  {
+    "fileName": "Campaign-5.wav",
+    "soundType": "Campaign",
+    "clipFileNames": [
+      "DR02Chen07.wav"
+    ],
+    "text": "Ah, my friend, I found that no path is too perilous when doused with strong drink. Off we go!"
+  }
+]

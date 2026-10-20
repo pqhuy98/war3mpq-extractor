@@ -1,0 +1,10 @@
+{
+  "unitId": "Orex",
+  "unitName": "rexxar",
+  "lineId": "marrowgar-bladestorm-hint",
+  "text": "[gravelly, grim, measured, warning his companions after they fell, mid-low register, not flat, not a narrator]\nWhen he starts that Bone Storm, do stay far from him. [heavier] The blades will cut anyone close.",
+  "model": "drama-3",
+  "voiceId": "c2371c33bb1e4acc825ef057c644e59c",
+  "wav": "output\\fish-voices\\Orex-rexxar\\lines\\marrowgar-bladestorm-hint.wav",
+  "generatedAt": "2026-10-18T17:30:48.254Z"
+}

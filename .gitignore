@@ -1,3 +1,7 @@
 node_modules
 extracted-mpq
 .env
+output/fish-voices/**/clips/
+output/fish-voices/**/pack/
+output/fish-voices/**/lines/*.wav
+output/fish-voices/**/lines/*.source.wav

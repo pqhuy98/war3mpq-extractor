@@ -1,0 +1,776 @@
+[
+  {
+    "fileName": "OgreBeastMasterWhat1.wav",
+    "soundType": "What",
+    "text": "Unleash my strength.",
+    "bytes": 93832
+  },
+  {
+    "fileName": "OgreBeastMasterWhat2.wav",
+    "soundType": "What",
+    "text": "I'm ready to track.",
+    "bytes": 78728
+  },
+  {
+    "fileName": "OgreBeastMasterWhat3.wav",
+    "soundType": "What",
+    "text": "Flush them out.",
+    "bytes": 57864
+  },
+  {
+    "fileName": "OgreBeastMasterWhat4.wav",
+    "soundType": "What",
+    "text": "What lies before me?",
+    "bytes": 74376
+  },
+  {
+    "fileName": "OgreBeastMasterWhat5.wav",
+    "soundType": "What",
+    "text": "My quarry nears.",
+    "bytes": 81800
+  },
+  {
+    "fileName": "OgreBeastMasterPissed1.wav",
+    "soundType": "Pissed",
+    "text": "The beasts obey me.",
+    "bytes": 84360
+  },
+  {
+    "fileName": "OgreBeastMasterPissed2.wav",
+    "soundType": "Pissed",
+    "text": "Where I lay my head is home. See that rock? That's my pillow.",
+    "bytes": 240264
+  },
+  {
+    "fileName": "OgreBeastMasterPissed3.wav",
+    "soundType": "Pissed",
+    "text": "The beasts around me are nothing compared to the beast within.",
+    "bytes": 247432
+  },
+  {
+    "fileName": "OgreBeastMasterPissed4.wav",
+    "soundType": "Pissed",
+    "text": "I will now summon the effete Dwayne-Two!",
+    "bytes": 182664
+  },
+  {
+    "fileName": "OgreBeastMasterPissed5.wav",
+    "soundType": "Pissed",
+    "text": "I summon the... Ah!",
+    "bytes": 204680
+  },
+  {
+    "fileName": "OgreBeastMasterPissed6.wav",
+    "soundType": "Pissed",
+    "text": "Don't have a cow. Oh, dear. Oops. Please bear with me. Oh, rats!",
+    "bytes": 572296
+  },
+  {
+    "fileName": "OgreBeastMasterYesAttack1.wav",
+    "soundType": "YesAttack",
+    "text": "Unleash the beast!",
+    "bytes": 63880
+  },
+  {
+    "fileName": "OgreBeastMasterYesAttack2.wav",
+    "soundType": "YesAttack",
+    "text": "By fang and claw!",
+    "bytes": 80648
+  },
+  {
+    "fileName": "OgreBeastMasterYesAttack3.wav",
+    "soundType": "YesAttack",
+    "text": "Mangy cur!",
+    "bytes": 46600
+  },
+  {
+    "fileName": "OgreBeastMasterYes1.wav",
+    "soundType": "Yes",
+    "text": "I've got the scent.",
+    "bytes": 51722
+  },
+  {
+    "fileName": "OgreBeastMasterYes2.wav",
+    "soundType": "Yes",
+    "text": "On the prowl.",
+    "bytes": 54920
+  },
+  {
+    "fileName": "OgreBeastMasterYes3.wav",
+    "soundType": "Yes",
+    "text": "Our paths converge.",
+    "bytes": 81034
+  },
+  {
+    "fileName": "OgreBeastMasterYes4.wav",
+    "soundType": "Yes",
+    "text": "I'm acting on instinct.",
+    "bytes": 72840
+  },
+  {
+    "fileName": "OgreBeastMasterYes5.wav",
+    "soundType": "Yes",
+    "text": "I wander alone.",
+    "bytes": 72840
+  },
+  {
+    "fileName": "OgreBeastMasterReady1.wav",
+    "soundType": "Ready",
+    "text": "I hear the call of the wild.",
+    "bytes": 94216
+  },
+  {
+    "fileName": "OgreBeastMasterWarcry1.wav",
+    "soundType": "Warcry",
+    "text": "For the Mog Nathal!",
+    "bytes": 79880
+  },
+  {
+    "fileName": "D00Rexxar01.wav",
+    "soundType": "Campaign",
+    "text": "I have wandered alone for many years, little Misha. Yet sometimes even I grow weary of this endless solitude.",
+    "bytes": 779086
+  },
+  {
+    "fileName": "D00Rexxar02.wav",
+    "soundType": "Campaign",
+    "text": "I have watched the other races. I have seen their squabbling, their ruthlessness. Their wars do nothing but scar the land and drive the wild things to extinction.",
+    "bytes": 1114918
+  },
+  {
+    "fileName": "D00Rexxar03.wav",
+    "soundType": "Campaign",
+    "text": "No, they cannot be trusted. Only beasts are above deceit.",
+    "bytes": 476174
+  },
+  {
+    "fileName": "D00Rexxar04.wav",
+    "soundType": "Campaign",
+    "text": "A battle.",
+    "bytes": 78158
+  },
+  {
+    "fileName": "D00Rexxar06.wav",
+    "soundType": "Campaign",
+    "text": "Hold fast, stranger. You shall not stand alone.",
+    "bytes": 276844
+  },
+  {
+    "fileName": "D00Rexxar08.wav",
+    "soundType": "Campaign",
+    "text": "Your stomach's been split open. I can do little to ease your pain.",
+    "bytes": 467022
+  },
+  {
+    "fileName": "D00Rexxar10.wav",
+    "soundType": "Campaign",
+    "text": "Failure.",
+    "bytes": 93518
+  },
+  {
+    "fileName": "D00Rexxar13.wav",
+    "soundType": "Campaign",
+    "text": "I will deliver your message, old one. For the sake of honor, I will uphold your charge.",
+    "bytes": 588988
+  },
+  {
+    "fileName": "D00Rexxar15.wav",
+    "soundType": "Campaign",
+    "text": "May the winds bear you swiftly to your ancestors, warrior.",
+    "bytes": 418894
+  },
+  {
+    "fileName": "D00Rexxar16.wav",
+    "soundType": "Campaign",
+    "text": "Well, Misha, it seems we'll be seeing civilization after all. Let's get moving.",
+    "bytes": 545358
+  },
+  {
+    "fileName": "D00Rexxar17.wav",
+    "soundType": "Campaign",
+    "text": "A warrior city. I have not seen its like in many years.",
+    "bytes": 450604
+  },
+  {
+    "fileName": "D00Rexxar17A.wav",
+    "soundType": "Campaign",
+    "text": "Stay close to me, Misha.",
+    "bytes": 151084
+  },
+  {
+    "fileName": "D00Rexxar19.wav",
+    "soundType": "Campaign",
+    "text": "I carry a message for your war chief. I'll not stay long.",
+    "bytes": 385614
+  },
+  {
+    "fileName": "D00Rexxar22.wav",
+    "soundType": "Campaign",
+    "text": "A moment, Warchief. I come to deliver a message.",
+    "bytes": 355406
+  },
+  {
+    "fileName": "D00Rexxar24.wav",
+    "soundType": "Campaign",
+    "text": "He fell in the wilds. His last wish was that you receive this message.",
+    "bytes": 480846
+  },
+  {
+    "fileName": "D00Rexxar26.wav",
+    "soundType": "Campaign",
+    "text": "I am Rexxar, last son of the mogu Nath'hal.",
+    "bytes": 362574
+  },
+  {
+    "fileName": "D00Rexxar28.wav",
+    "soundType": "Campaign",
+    "text": "Perhaps I have spent too long in the wilds. Your offer is kind, thrall, but I must carry my own weight. Just show me what needs doing, and I'll earn my keep.",
+    "bytes": 1011022
+  },
+  {
+    "fileName": "D01Rexxar03.wav",
+    "soundType": "Campaign",
+    "text": "This must be one of the caravans Nazgrel told me about.",
+    "bytes": 326734
+  },
+  {
+    "fileName": "D01Rexxar05.wav",
+    "soundType": "Campaign",
+    "text": "I never intended to chase you out. I intend to bury you here.",
+    "bytes": 450126
+  },
+  {
+    "fileName": "D02Rexxar03.wav",
+    "soundType": "Campaign",
+    "text": "Thunder Ridge. This must be the valley Drek'thar spoke of. This shouldn't be too difficult.",
+    "bytes": 623694
+  },
+  {
+    "fileName": "D02Rexxar04.wav",
+    "soundType": "Campaign",
+    "text": "This must be the Shimmer Reed. I'll need to gather five more bushels.",
+    "bytes": 466510
+  },
+  {
+    "fileName": "D03Rexxar03.wav",
+    "soundType": "Campaign",
+    "text": "You're not paying me at all, little goblin.",
+    "bytes": 201210
+  },
+  {
+    "fileName": "D03Rexxar04.wav",
+    "soundType": "Campaign",
+    "text": "This must be the entrance to the goblins' tunnels.",
+    "bytes": 259086
+  },
+  {
+    "fileName": "D03Rexxar06.wav",
+    "soundType": "Campaign",
+    "text": "Do you goblins have a plan?",
+    "bytes": 168526
+  },
+  {
+    "fileName": "D03Rexxar08.wav",
+    "soundType": "Campaign",
+    "text": "This must be one of the support beams. It's all yours, goblins.",
+    "bytes": 398926
+  },
+  {
+    "fileName": "D04ARexxar07.wav",
+    "soundType": "Campaign",
+    "text": "This village has been razed. There's no evidence that the clan survived at all.",
+    "bytes": 454222
+  },
+  {
+    "fileName": "D06ARexxar04.wav",
+    "soundType": "Campaign",
+    "text": "These tracks indicate that the lizards came through this pass. I'm curious as to where it leads.",
+    "bytes": 600142
+  },
+  {
+    "fileName": "D06ARexxar05.wav",
+    "soundType": "Campaign",
+    "text": "Apparently, many of the Thunderlizards came from this secluded valley. I wonder what could have driven them out.",
+    "bytes": 609230
+  },
+  {
+    "fileName": "D06ARexxar07.wav",
+    "soundType": "Campaign",
+    "text": "Humans. What could they be doing here?",
+    "bytes": 275022
+  },
+  {
+    "fileName": "D06ARexxar09.wav",
+    "soundType": "Campaign",
+    "text": "A human lumber mill. They've cut down all of the trees. That's got to be what's driving the thunder lizards mad. We should destroy the mill immediately.",
+    "bytes": 941134
+  },
+  {
+    "fileName": "D06ARexxar11.wav",
+    "soundType": "Campaign",
+    "text": "The poor beasts have been slain. What a terrible waste of life. We should report back to Thrall. He'll need to know what the humans are doing out here.",
+    "bytes": 961358
+  },
+  {
+    "fileName": "D07ARexxar03.wav",
+    "soundType": "Campaign",
+    "text": "Now I can activate the telescope and survey the surrounding lands.",
+    "bytes": 397134
+  },
+  {
+    "fileName": "D07ARexxar04.wav",
+    "soundType": "Campaign",
+    "text": "Blast! It looks like the beginnings of an invasion. There's far too many of them for me to handle alone.",
+    "bytes": 582990
+  },
+  {
+    "fileName": "D07BRexxar01.wav",
+    "soundType": "Campaign",
+    "text": "This must be the entrance to the Quillbor's den. It smells foul enough. I don't even want to imagine what they're cooking in there.",
+    "bytes": 807502
+  },
+  {
+    "fileName": "D07BRexxar02.wav",
+    "soundType": "Campaign",
+    "text": "It appears that they worship some kind of primitive boar god. Interesting.",
+    "bytes": 504910
+  },
+  {
+    "fileName": "D08Rexxar05.wav",
+    "soundType": "Campaign",
+    "text": "No, we're too late. The camp's already been raised. There are human tracks everywhere. They lead back towards the coast.",
+    "bytes": 868046
+  },
+  {
+    "fileName": "D08Rexxar07.wav",
+    "soundType": "Campaign",
+    "text": "No doubt about it. Those are the same ships I saw from the observatory.",
+    "bytes": 462926
+  },
+  {
+    "fileName": "D08Rexxar11.wav",
+    "soundType": "Campaign",
+    "text": "This anchor emblem on their shields. Have you ever seen it before?",
+    "bytes": 468558
+  },
+  {
+    "fileName": "D09ARexxar02.wav",
+    "soundType": "Campaign",
+    "text": "There's no telling what dangers lurk on these isles. I'll have to move quickly and find the trolls' village.",
+    "bytes": 620238
+  },
+  {
+    "fileName": "D09BRexxar02.wav",
+    "soundType": "Campaign",
+    "text": "You have little chance of defeating such a force on your own, Vol'jin. You should evacuate your tribe to the mainland and unite with the Warchief's forces.",
+    "bytes": 808014
+  },
+  {
+    "fileName": "D09BRexxar05.wav",
+    "soundType": "Campaign",
+    "text": "I have no flying mount, Vol'jin. I'll be useless on land.",
+    "bytes": 378958
+  },
+  {
+    "fileName": "D09BRexxar06.wav",
+    "soundType": "Campaign",
+    "text": "We have no flying mounts, Vol'jin. We'll be useless on land.",
+    "bytes": 385358
+  },
+  {
+    "fileName": "D09CRexxar03.wav",
+    "soundType": "Campaign",
+    "text": "Damn, the brazier is guarded by some kind of sea giant. Getting to it won't be as easy as I thought.",
+    "bytes": 609710
+  },
+  {
+    "fileName": "D09CRexxar04.wav",
+    "soundType": "Campaign",
+    "text": "Whoa, he's a big one. I'm in for a serious fight.",
+    "bytes": 413646
+  },
+  {
+    "fileName": "D09CRexxar05.wav",
+    "soundType": "Campaign",
+    "text": "I'll have to fight my way past that beast.",
+    "bytes": 209742
+  },
+  {
+    "fileName": "D09CRexxar06.wav",
+    "soundType": "Campaign",
+    "text": "That vile creature stands in my way.",
+    "bytes": 279438
+  },
+  {
+    "fileName": "D09CRexxar07.wav",
+    "soundType": "Campaign",
+    "text": "I hate to see any beast harmed, but there's no other way.",
+    "bytes": 377550
+  },
+  {
+    "fileName": "D10Rexxar02.wav",
+    "soundType": "Campaign",
+    "text": "I don't know, Thrall. It sounds like a trap to me. Let me go in your place.",
+    "bytes": 459598
+  },
+  {
+    "fileName": "D10Rexxar04.wav",
+    "soundType": "Campaign",
+    "text": "Just trust me. If you're right, we'll have lost nothing.",
+    "bytes": 362958
+  },
+  {
+    "fileName": "D10Rexxar06.wav",
+    "soundType": "Campaign",
+    "text": "Worried? Bah! I'm just biding my time.",
+    "bytes": 430926
+  },
+  {
+    "fileName": "D10Rexxar07.wav",
+    "soundType": "Campaign",
+    "text": "This is it. The meeting place lies just beyond.",
+    "bytes": 312078
+  },
+  {
+    "fileName": "D10Rexxar08.wav",
+    "soundType": "Campaign",
+    "text": "Greetings, humans. It's about time you showed up.",
+    "bytes": 291662
+  },
+  {
+    "fileName": "D10Rexxar10.wav",
+    "soundType": "Campaign",
+    "text": "And you are not Jaina Proudmoore.",
+    "bytes": 236622
+  },
+  {
+    "fileName": "D10Rexxar12.wav",
+    "soundType": "Campaign",
+    "text": "Assassins! I knew this was a trap!",
+    "bytes": 229710
+  },
+  {
+    "fileName": "D10Rexxar14.wav",
+    "soundType": "Campaign",
+    "text": "You're just in time, brothers. I saved a few of them for you.",
+    "bytes": 314958
+  },
+  {
+    "fileName": "D10Rexxar15.wav",
+    "soundType": "Campaign",
+    "text": "Tell me who sent you, human. Was it Jaina?",
+    "bytes": 322126
+  },
+  {
+    "fileName": "D11Rexxar02.wav",
+    "soundType": "Campaign",
+    "text": "You can count on me, Thrall. But I may need help bypassing the humans' defenses.",
+    "bytes": 490702
+  },
+  {
+    "fileName": "D12Rexxar05.wav",
+    "soundType": "Campaign",
+    "text": "\"Jaina Proudmoore, I am Rexxar. I bear a message from Warchief Thrall, the same Warchief you tried to kill. He is curious as to why your warriors encroach on our lands and threaten us with war.\"",
+    "bytes": 1434958
+  },
+  {
+    "fileName": "D12Rexxar07.wav",
+    "soundType": "Campaign",
+    "text": "Perhaps. But the fact remains that your ships and your warriors have been raiding our encampments on the mainland. I had to bypass a large encampment just to reach you.",
+    "bytes": 993870
+  },
+  {
+    "fileName": "D13Rexxar02.wav",
+    "soundType": "Campaign",
+    "text": "Those snake creatures! They must have destroyed the camp and slaughtered your brethren.",
+    "bytes": 500590
+  },
+  {
+    "fileName": "D13Rexxar07.wav",
+    "soundType": "Campaign",
+    "text": "Strange. I don't see any human bodies strewn around.",
+    "bytes": 368142
+  },
+  {
+    "fileName": "D13Rexxar09.wav",
+    "soundType": "Campaign",
+    "text": "The serpent's lair must be around here somewhere. If we can find the human survivors, we'll confirm whether or not they serve your cause.",
+    "bytes": 826448
+  },
+  {
+    "fileName": "D13Rexxar10.wav",
+    "soundType": "Campaign",
+    "text": "We're too late. The serpents already killed them all.",
+    "bytes": 341614
+  },
+  {
+    "fileName": "D13Rexxar14.wav",
+    "soundType": "Campaign",
+    "text": "But what?",
+    "bytes": 56654
+  },
+  {
+    "fileName": "D13Rexxar17.wav",
+    "soundType": "Campaign",
+    "text": "I don't understand. What's this all about?",
+    "bytes": 206670
+  },
+  {
+    "fileName": "D13Rexxar22.wav",
+    "soundType": "Campaign",
+    "text": "Father.",
+    "bytes": 88142
+  },
+  {
+    "fileName": "D14Rexxar01.wav",
+    "soundType": "Campaign",
+    "text": "I've got to get out of here and warn Thrall about Admiral Proudmoore. There are a number of small ships in the harbor. If I can commandeer one, I should be able to reach the open seas unnoticed.",
+    "bytes": 1054286
+  },
+  {
+    "fileName": "D14Rexxar02.wav",
+    "soundType": "Campaign",
+    "text": "This should do nicely. Now all I have to worry about are the harbor gates.",
+    "bytes": 457806
+  },
+  {
+    "fileName": "D14Rexxar03.wav",
+    "soundType": "Campaign",
+    "text": "Proudmoore's marines have closed the harbor gates. I'll need to bust them open before I can escape. If I can make it to the open seas, I should have no problem reaching the mainland.",
+    "bytes": 979918
+  },
+  {
+    "fileName": "D15ARexxar02.wav",
+    "soundType": "Campaign",
+    "text": "This beautiful land must be Mulgore. I have never met a Tauren before, but their strength and courage are legendary.",
+    "bytes": 789070
+  },
+  {
+    "fileName": "D15ARexxar04.wav",
+    "soundType": "Campaign",
+    "text": "I come in the name of Thrall, Warchief of the Horde. His lands are in danger, and he calls upon his old allies to aid him. I seek the one known as Cairne. Do you know him?",
+    "bytes": 1257550
+  },
+  {
+    "fileName": "D15BRexxar02.wav",
+    "soundType": "Campaign",
+    "text": "Rotting kodo husks. What a terrible waste. The harpies will pay for this sacrilege of nature!",
+    "bytes": 797262
+  },
+  {
+    "fileName": "D15CRexxar02.wav",
+    "soundType": "Campaign",
+    "text": "Greetings, brother Wintotem. I was told you could help me locate Chieftain Bloodhoof's son. There may still be a chance that the boy lives, but we'll need to find the centaur encampment as quickly as possible.",
+    "bytes": 1178958
+  },
+  {
+    "fileName": "D15CRexxar03.wav",
+    "soundType": "Campaign",
+    "text": "That's the centaur encampment. They could be keeping Bane in one of those cages, but we'll have to fight our way to them.",
+    "bytes": 623694
+  },
+  {
+    "fileName": "D15CRexxar04.wav",
+    "soundType": "Campaign",
+    "text": "Don't worry, Bane. We'll have you back to your father in no time.",
+    "bytes": 352334
+  },
+  {
+    "fileName": "D16ARexxar03.wav",
+    "soundType": "Campaign",
+    "text": "New warlord, huh? Don't worry, friend. I think I can help you. Have your witch doctors tend to his wounds, Vol'jin. I'm going to pay a little visit to his clan and meet this new warlord for myself.",
+    "bytes": 1312846
+  },
+  {
+    "fileName": "D16ARexxar05.wav",
+    "soundType": "Campaign",
+    "text": "That must be the ogre's village. I should fit right in.",
+    "bytes": 342414
+  },
+  {
+    "fileName": "D16ARexxar07.wav",
+    "soundType": "Campaign",
+    "text": "Look, I don't want any trouble. I just want to talk with your warlord.",
+    "bytes": 379470
+  },
+  {
+    "fileName": "D16ARexxar10.wav",
+    "soundType": "Campaign",
+    "text": "I've uh, come to join your clan. I want to be a stonemaul too.",
+    "bytes": 555086
+  },
+  {
+    "fileName": "D16BRexxar03.wav",
+    "soundType": "Campaign",
+    "text": "This must be the valley Korgal spoke of. The Gauntlet, he called it. Well, I'd better get this over with. I'd hate to keep the brute waiting.",
+    "bytes": 868814
+  },
+  {
+    "fileName": "D16BRexxar05.wav",
+    "soundType": "Campaign",
+    "text": "I want you and your warriors to help the horde battle the humans. The Stonemaul clan would be a great asset to the orc warchief.",
+    "bytes": 783694
+  },
+  {
+    "fileName": "D16BRexxar07.wav",
+    "soundType": "Campaign",
+    "text": "Then perhaps you've ruled long enough.",
+    "bytes": 278862
+  },
+  {
+    "fileName": "D16CRexxar01.wav",
+    "soundType": "Campaign",
+    "text": "Korgal, as a member of the Stonemaul clan, I claim the right to challenge you for leadership.",
+    "bytes": 675278
+  },
+  {
+    "fileName": "D16CRexxar04.wav",
+    "soundType": "Campaign",
+    "text": "I underestimated Korgal's skills. I'll need to call upon my beasts to defeat him.",
+    "bytes": 578892
+  },
+  {
+    "fileName": "D16CRexxar06.wav",
+    "soundType": "Campaign",
+    "text": "I have defeated Korgal in single combat. I have passed the trial of blood. I rule Stonemaul Clan now, and I command you all to war! You ogres arm yourselves and meet the orc warchief upon the plains. Blood and glory to the Stonemaul clan!",
+    "bytes": 1966158
+  },
+  {
+    "fileName": "D17Rexxar02.wav",
+    "soundType": "Campaign",
+    "text": "Of course, Thrall. I'd be proud to.",
+    "bytes": 303374
+  },
+  {
+    "fileName": "D17Rexxar04.wav",
+    "soundType": "Campaign",
+    "text": "I've secured the first component, but I've got to hurry and get the others. Time is running out.",
+    "bytes": 527438
+  },
+  {
+    "fileName": "D17Rexxar05.wav",
+    "soundType": "Campaign",
+    "text": "That's it. I've got all of them. I'd better get these back to Thrall quickly.",
+    "bytes": 452430
+  },
+  {
+    "fileName": "D17Rexxar08.wav",
+    "soundType": "Campaign",
+    "text": "It is an honor, Warchief. I will carry your standard with pride. LOK'TAR OGA!",
+    "bytes": 842446
+  },
+  {
+    "fileName": "D18Rexxar03.wav",
+    "soundType": "Campaign",
+    "text": "Gladly. All right, you warriors. The hour of victory has arrived. Come, you Tauren. Rise up, you Ogres. Today, you stand united with the Horde. Lok'tar Ogar!",
+    "bytes": 1438798
+  },
+  {
+    "fileName": "D18Rexxar04.wav",
+    "soundType": "Campaign",
+    "text": "Strike hard, warriors! Push the humans back!",
+    "bytes": 351822
+  },
+  {
+    "fileName": "D18Rexxar05.wav",
+    "soundType": "Campaign",
+    "text": "Slay the invaders. Let none survive!",
+    "bytes": 337998
+  },
+  {
+    "fileName": "D18Rexxar06.wav",
+    "soundType": "Campaign",
+    "text": "The human lines are breaking. Now is our time to strike.",
+    "bytes": 414672
+  },
+  {
+    "fileName": "D18Rexxar07.wav",
+    "soundType": "Campaign",
+    "text": "Thrungar, Warchief, we've routed the human forces on the mainland, but it appears that Admiral Proudmoore and his marines have pulled back to the safety of Theramore Isle.",
+    "bytes": 1032270
+  },
+  {
+    "fileName": "D19Rexxar01.wav",
+    "soundType": "Campaign",
+    "text": "Warchief, our troops are ready, but the admirals assembled a blockade of battleships around Theramore. There's no way we can match their firepower.",
+    "bytes": 916814
+  },
+  {
+    "fileName": "D19Rexxar07.wav",
+    "soundType": "Campaign",
+    "text": "Our forces are ready, Thrall. It's now or never.",
+    "bytes": 415054
+  },
+  {
+    "fileName": "D19Rexxar09.wav",
+    "soundType": "Campaign",
+    "text": "There, the goblin shipyard Janus spoke of. Now we can hire the juggernauts to help us break the blockade.",
+    "bytes": 732238
+  },
+  {
+    "fileName": "D19Rexxar10.wav",
+    "soundType": "Campaign",
+    "text": "The blockade is broken. Board the transports quickly! We must land on Theramore and crush the admiral's defenses.",
+    "bytes": 703566
+  },
+  {
+    "fileName": "D19Rexxar11.wav",
+    "soundType": "Campaign",
+    "text": "Jaina's warriors are attacking! Remember our oath to her. Defend yourselves against them, but spare their structures.",
+    "bytes": 789582
+  },
+  {
+    "fileName": "D19Rexxar13.wav",
+    "soundType": "Campaign",
+    "text": "Thank you, Warchief. Now only one task remains. We must storm the citadel and deal with Admiral Proudmoore once and for all.",
+    "bytes": 927310
+  },
+  {
+    "fileName": "D20Rexxar03.wav",
+    "soundType": "Campaign",
+    "text": "Lok'tar Ogar! For the horde! For Durotar!",
+    "bytes": 438862
+  },
+  {
+    "fileName": "D20Rexxar04.wav",
+    "soundType": "Campaign",
+    "text": "The admiral's elite guard are trying to cut us off. Slay them all!",
+    "bytes": 387918
+  },
+  {
+    "fileName": "D20Rexxar11.wav",
+    "soundType": "Campaign",
+    "text": "It's over. Stand down, humans.",
+    "bytes": 290382
+  },
+  {
+    "fileName": "D20Rexxar13.wav",
+    "soundType": "Campaign",
+    "text": "Above all else, Jaina, he was a proud warrior. Remember him as such.",
+    "bytes": 566350
+  },
+  {
+    "fileName": "D20Rexxar16.wav",
+    "soundType": "Campaign",
+    "text": "I appreciate your offer, Thrall, but I am Mok'nathal, a wanderer. I belong in the wilds amidst the beasts and elements of the land. But know this, brother. I will always be a part of the horde. I will always be there when you need me. Farewell.",
+    "bytes": 2108494
+  },
+  {
+    "fileName": "DR01Rexxar02.wav",
+    "soundType": "Campaign",
+    "text": "This place reeks of evil. It must be where the warlocks are hiding.",
+    "bytes": 473678
+  },
+  {
+    "fileName": "DR02Rexxar04.wav",
+    "soundType": "Campaign",
+    "text": "What the hell is that stuff? Are you trying to kill me?",
+    "bytes": 529486
+  },
+  {
+    "fileName": "DR02Rexxar06.wav",
+    "soundType": "Campaign",
+    "text": "Not at all, Chen. But my path is a perilous one.",
+    "bytes": 439758
+  }
+]

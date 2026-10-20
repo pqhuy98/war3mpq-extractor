@@ -17,7 +17,8 @@
     "bundle-voice": "node src/bundle-voice.js",
     "item": "node generate-items.js",
     "generate-dialogues": "tsx src/generate-dialogues.ts",
-    "compare-v4": "tsx src/compare-v4.ts"
+    "compare-v4": "tsx src/compare-v4.ts",
+    "clone-unit-voice": "tsx src/clone-unit-voice.ts"
   },
   "author": "",
   "license": "ISC",

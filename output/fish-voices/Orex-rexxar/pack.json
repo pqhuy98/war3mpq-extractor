@@ -1,0 +1,119 @@
+[
+  {
+    "fileName": "What.wav",
+    "soundType": "What",
+    "clipFileNames": [
+      "OgreBeastMasterWhat1.wav",
+      "OgreBeastMasterWhat2.wav",
+      "OgreBeastMasterWhat3.wav",
+      "OgreBeastMasterWhat4.wav",
+      "OgreBeastMasterWhat5.wav"
+    ],
+    "text": "Unleash my strength. I'm ready to track. Flush them out. What lies before me? My quarry nears."
+  },
+  {
+    "fileName": "Pissed.wav",
+    "soundType": "Pissed",
+    "clipFileNames": [
+      "OgreBeastMasterPissed1.wav",
+      "OgreBeastMasterPissed2.wav",
+      "OgreBeastMasterPissed3.wav",
+      "OgreBeastMasterPissed4.wav",
+      "OgreBeastMasterPissed5.wav",
+      "OgreBeastMasterPissed6.wav"
+    ],
+    "text": "The beasts obey me. Where I lay my head is home. See that rock? That's my pillow. The beasts around me are nothing compared to the beast within. I will now summon the effete Dwayne-Two! I summon the... Ah! Don't have a cow. Oh, dear. Oops. Please bear with me. Oh, rats!"
+  },
+  {
+    "fileName": "YesAttack.wav",
+    "soundType": "YesAttack",
+    "clipFileNames": [
+      "OgreBeastMasterYesAttack1.wav",
+      "OgreBeastMasterYesAttack2.wav",
+      "OgreBeastMasterYesAttack3.wav"
+    ],
+    "text": "Unleash the beast! By fang and claw! Mangy cur!"
+  },
+  {
+    "fileName": "Yes.wav",
+    "soundType": "Yes",
+    "clipFileNames": [
+      "OgreBeastMasterYes1.wav",
+      "OgreBeastMasterYes2.wav",
+      "OgreBeastMasterYes3.wav",
+      "OgreBeastMasterYes4.wav",
+      "OgreBeastMasterYes5.wav"
+    ],
+    "text": "I've got the scent. On the prowl. Our paths converge. I'm acting on instinct. I wander alone."
+  },
+  {
+    "fileName": "Ready.wav",
+    "soundType": "Ready",
+    "clipFileNames": [
+      "OgreBeastMasterReady1.wav"
+    ],
+    "text": "I hear the call of the wild."
+  },
+  {
+    "fileName": "Warcry.wav",
+    "soundType": "Warcry",
+    "clipFileNames": [
+      "OgreBeastMasterWarcry1.wav"
+    ],
+    "text": "For the Mog Nathal!"
+  },
+  {
+    "fileName": "Campaign-1.wav",
+    "soundType": "Campaign",
+    "clipFileNames": [
+      "D00Rexxar01.wav",
+      "D00Rexxar02.wav"
+    ],
+    "text": "I have wandered alone for many years, little Misha. Yet sometimes even I grow weary of this endless solitude. I have watched the other races. I have seen their squabbling, their ruthlessness. Their wars do nothing but scar the land and drive the wild things to extinction."
+  },
+  {
+    "fileName": "Campaign-2.wav",
+    "soundType": "Campaign",
+    "clipFileNames": [
+      "D00Rexxar03.wav",
+      "D00Rexxar04.wav",
+      "D00Rexxar06.wav",
+      "D00Rexxar08.wav",
+      "D00Rexxar10.wav",
+      "D00Rexxar13.wav"
+    ],
+    "text": "No, they cannot be trusted. Only beasts are above deceit. A battle. Hold fast, stranger. You shall not stand alone. Your stomach's been split open. I can do little to ease your pain. Failure. I will deliver your message, old one. For the sake of honor, I will uphold your charge."
+  },
+  {
+    "fileName": "Campaign-3.wav",
+    "soundType": "Campaign",
+    "clipFileNames": [
+      "D00Rexxar15.wav",
+      "D00Rexxar16.wav",
+      "D00Rexxar17.wav",
+      "D00Rexxar17A.wav",
+      "D00Rexxar19.wav"
+    ],
+    "text": "May the winds bear you swiftly to your ancestors, warrior. Well, Misha, it seems we'll be seeing civilization after all. Let's get moving. A warrior city. I have not seen its like in many years. Stay close to me, Misha. I carry a message for your war chief. I'll not stay long."
+  },
+  {
+    "fileName": "Campaign-4.wav",
+    "soundType": "Campaign",
+    "clipFileNames": [
+      "D00Rexxar22.wav",
+      "D00Rexxar24.wav",
+      "D00Rexxar26.wav"
+    ],
+    "text": "A moment, Warchief. I come to deliver a message. He fell in the wilds. His last wish was that you receive this message. I am Rexxar, last son of the mogu Nath'hal."
+  },
+  {
+    "fileName": "Campaign-5.wav",
+    "soundType": "Campaign",
+    "clipFileNames": [
+      "D00Rexxar28.wav",
+      "D01Rexxar03.wav",
+      "D01Rexxar05.wav"
+    ],
+    "text": "Perhaps I have spent too long in the wilds. Your offer is kind, thrall, but I must carry my own weight. Just show me what needs doing, and I'll earn my keep. This must be one of the caravans Nazgrel told me about. I never intended to chase you out. I intend to bury you here."
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "fileName": "PandarenBrewmasterWhat1.wav",
+    "soundType": "What",
+    "text": "Is trouble brewing?",
+    "bytes": 64782
+  },
+  {
+    "fileName": "PandarenBrewmasterWhat2.wav",
+    "soundType": "What",
+    "text": "Name your poison.",
+    "bytes": 47374
+  },
+  {
+    "fileName": "PandarenBrewmasterWhat3.wav",
+    "soundType": "What",
+    "text": "You seem a little parched.",
+    "bytes": 99470
+  },
+  {
+    "fileName": "PandarenBrewmasterWhat4.wav",
+    "soundType": "What",
+    "text": "Another round?",
+    "bytes": 45070
+  },
+  {
+    "fileName": "PandarenBrewmasterPissed1.wav",
+    "soundType": "Pissed",
+    "text": "Ale is my bare necessity.",
+    "bytes": 102286
+  },
+  {
+    "fileName": "PandarenBrewmasterPissed2.wav",
+    "soundType": "Pissed",
+    "text": "Last call before closing!",
+    "bytes": 91790
+  },
+  {
+    "fileName": "PandarenBrewmasterPissed3.wav",
+    "soundType": "Pissed",
+    "text": "Come drown your sorrows.",
+    "bytes": 94478
+  },
+  {
+    "fileName": "PandarenBrewmasterPissed4.wav",
+    "soundType": "Pissed",
+    "text": "This'll put hair all over you.",
+    "bytes": 101262
+  },
+  {
+    "fileName": "PandarenBrewmasterPissed5.wav",
+    "soundType": "Pissed",
+    "text": "I'd kiss you, but I've got puke breath.",
+    "bytes": 131982
+  },
+  {
+    "fileName": "PandarenBrewmasterPissed6.wav",
+    "soundType": "Pissed",
+    "text": "My dad, he was a bipolar.",
+    "bytes": 113038
+  },
+  {
+    "fileName": "PandarenBrewmasterPissed7.wav",
+    "soundType": "Pissed",
+    "text": "I can't breed in captivity.",
+    "bytes": 107918
+  },
+  {
+    "fileName": "PandarenBrewmasterPissed8.wav",
+    "soundType": "Pissed",
+    "text": "Sorry.",
+    "bytes": 72974
+  },
+  {
+    "fileName": "PandarenBrewmasterYesAttack1.wav",
+    "soundType": "YesAttack",
+    "text": "This will be grizzly!",
+    "bytes": 93070
+  },
+  {
+    "fileName": "PandarenBrewmasterYesAttack2.wav",
+    "soundType": "YesAttack",
+    "text": "Now, you're endangered!",
+    "bytes": 119694
+  },
+  {
+    "fileName": "PandarenBrewmasterYesAttack3.wav",
+    "soundType": "YesAttack",
+    "text": "I bring pandemonium!",
+    "bytes": 104590
+  },
+  {
+    "fileName": "PandarenBrewmasterYesAttack4.wav",
+    "soundType": "YesAttack",
+    "text": "Prepare to get trashed!",
+    "bytes": 93326
+  },
+  {
+    "fileName": "PandarenBrewmasterYes1.wav",
+    "soundType": "Yes",
+    "text": "Oh, gladly.",
+    "bytes": 70798
+  },
+  {
+    "fileName": "PandarenBrewmasterYes2.wav",
+    "soundType": "Yes",
+    "text": "I'll give it a shot.",
+    "bytes": 60814
+  },
+  {
+    "fileName": "PandarenBrewmasterYes3.wav",
+    "soundType": "Yes",
+    "text": "Have one on the house.",
+    "bytes": 69134
+  },
+  {
+    "fileName": "PandarenBrewmasterYes4.wav",
+    "soundType": "Yes",
+    "text": "I'll put it on your tab.",
+    "bytes": 86670
+  },
+  {
+    "fileName": "PandarenBrewmasterReady1.wav",
+    "soundType": "Ready",
+    "text": "\"Fresh, cool ale here.\"",
+    "bytes": 112526
+  },
+  {
+    "fileName": "PandarenBrewmasterWarcry1.wav",
+    "soundType": "Warcry",
+    "text": "For Pandaria!",
+    "bytes": 112526
+  },
+  {
+    "fileName": "DR02Chen01.wav",
+    "soundType": "Campaign",
+    "text": "Ah, greetings, my friend. I am Chen Stormstout, humble brewmaster of Pandaria. I have traveled the wide world searching for rare, exotic ingredients to use in my special brews. After all, good ale can solve all the problems of this world. Don't you agree?",
+    "bytes": 2081358
+  },
+  {
+    "fileName": "DR02Chen01A.wav",
+    "soundType": "Campaign",
+    "text": "Say, if you're free, I could use your help in locating some special ingredients for my latest brew. If you find the items on this list and bring them back to me, I'll let you sample my masterpiece.",
+    "bytes": 1286222
+  },
+  {
+    "fileName": "DR02Chen02.wav",
+    "soundType": "Campaign",
+    "text": "Ah, I see you've returned empty-handed. Don't be afraid, my friend. Strong ale should be nothing to fear for one of your size.",
+    "bytes": 865356
+  },
+  {
+    "fileName": "DR02Chen03.wav",
+    "soundType": "Campaign",
+    "text": "Perfect! Perfect! These are just what I needed! Here, try a sample of my latest creation.",
+    "bytes": 797518
+  },
+  {
+    "fileName": "DR02Chen05.wav",
+    "soundType": "Campaign",
+    "text": "Ah, perhaps it needs some refinement. After all, we must learn to crawl before we can run. Don't you agree? Well, now that my brew is complete, I can experience more of this strange, rugged land. Would you mind if I tagged along with you, warrior?",
+    "bytes": 1688012
+  },
+  {
+    "fileName": "DR02Chen07.wav",
+    "soundType": "Campaign",
+    "text": "Ah, my friend, I found that no path is too perilous when doused with strong drink. Off we go!",
+    "bytes": 756046
+  }
+]
