@@ -73,10 +73,12 @@ Pack is ≤20 files, ~90 s of campaign audio. Extra campaign clips stay in `clip
 
 ## Map import
 
-Convert the 22 kHz `.wav` to MP3 beside the map’s other sounds, then `getSoundGroup` + `playSpeech` on the speaking unit.
+For campaign maps using the sounds watcher, copy the ready 22 kHz mono `.wav` into the map's **source** sounds folder, then use `getSoundGroup` + `playSpeech` on the speaking unit.
 
 ```
-bin/ffmpeg-7.0.2-essentials_build/bin/ffmpeg.exe -y -i output/fish-voices/<unit>/lines/<id>.wav -codec:a libmp3lame -q:a 4 <map>/maps/assets/wotlk/<map>/sounds/<namespace>/<file>.mp3
+<campaign-repo>/<map>/sounds/<namespace>/<file>.wav
 ```
 
-`getSoundPath` is `wotlk\<map>\sounds\<namespace>\<file>.mp3`. Do not hard-code machine-absolute paths in the map repo.
+The watcher converts source WAV/OGG/MP3 files to `<map>/maps/assets/wotlk/<map>/sounds/<namespace>/<file>.mp3`, registers imports, and deploys the real audio. Never write only to that generated folder: orphan cleanup deletes files without matching sources. Match the referenced namespace exactly, without an extra `QuestSounds` folder.
+
+`getSoundPath` is `wotlk\<map>\sounds\<namespace>\<file>.mp3`, even when the source is WAV or OGG. Verify the source recording, decoded exported MP3 and duration, `war3map.imp`, and deployed game asset before reporting completion. Packed one-byte placeholders are intentional in this pipeline; check the deployed real file. Do not claim native playback without testing it in WC3. For maps with another build pipeline, follow that project's source/import rules. Do not hard-code machine-absolute paths in the map repo.
